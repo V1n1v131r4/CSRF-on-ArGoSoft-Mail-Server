@@ -11,7 +11,7 @@ ______________________________________________
 
 The ArGo Soft Mail Server dashboard does not have protection against attacks of the type Cross Site Request Forgery (CSRF), making it possible to use the exploit below to change the admin password:
 
-'''
+```
 <!DOCTYPE html>
 <html>
 <body>
@@ -29,7 +29,7 @@ The ArGo Soft Mail Server dashboard does not have protection against attacks of 
 	</form>
 </body>
 
-'''
+```
 
 ![a1](http://sejalivre.org/poc3/argo1.png)
 
